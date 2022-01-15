@@ -1,0 +1,66 @@
+html {
+    font-family: 'Sora', sans-serif;  
+    background-color: #c5c5c5;
+}
+.header-img {
+    position: fixed;
+    top: 30;
+	left: 30px;
+	z-index: 999;
+    width: 25%;
+    height: 25%;
+    background: url('https://media.cargocollective.com/1/23/743574/headerimg/CHRISTIANEDWARDLOGOsmaller.png');
+    background-size: cover;
+  }
+  .header-img2 {
+    position: fixed;
+    top: 30;
+	left: 1023px;
+	z-index: 999;
+    width:215px;
+  height:215px;
+  object-fit:cover;
+  border-radius:50%;
+    background: url('https://i.ibb.co/2ytD6Dk/Schermafbeelding-2022-01-05-om-21-40-09.png');
+    background-size: cover;
+  }
+h1 {
+    margin: 0;
+    width: 95%;
+    padding: 180px 23px 0px 30px;
+    color: #000000;
+  }
+  h3 {
+    margin: 0;
+    padding: 30px 30px;
+  }
+  img{
+    display: none
+ }
+ 
+ span:hover + img{
+    display: block;
+ }
+  
+ #container{
+    width: 400px;
+    background: yellow;
+}
+#floated{
+    float: left;
+    width: 150px;
+    padding: auto;
+    background: red;
+}
+span{ cursor: pointer; color: rgb(238, 255, 0);  display: inline-block;  }
+#footer {
+    position: fixed;
+    height: 30px;
+    background-color: rgb(4, 0, 255);
+    color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
